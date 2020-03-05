@@ -108,7 +108,7 @@ class App extends Component {
                 <div className="animated fadeInLeft col-sm-6" style={{opacity: "0"}}>
                   <div className="single-about-txt">
                     <h3>
-                      I am a Professional Full Stack Software Engineer with experience in front-end, back-end, and mobile developement.  
+                      I am a Professional Full Stack Software Engineer with experience in front-end, back-end, and mobile development.  
                     </h3>
                     <p>
                     Currently I am working as a Mobile Developer at Bank of America creating custom features for the Bank of America / Merrill Lynch suite of Mobile Applications. I have recently graduated as the Valedictorian of the Engineering, Business, and Computing Division at Penn State University. I received a Bachelor's Degree in Information Sciences and Technology, with minors in Business and Security & Risk Analysis. I have published research on spatial clustering algorithms and developed a modified multi-objective spatial clustering algorithm using Python. I have tested the algorithm on the CitiBike bike-sharing application and plan to apply this research to other real-life scenarios, such as redrawing congressional district lines.
