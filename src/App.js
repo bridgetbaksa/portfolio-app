@@ -318,6 +318,7 @@ class App extends Component {
         {/*skills end */}
         {/*experience start */}
         <section id="experience" className="experience">
+          <div className="experience-content">
           <div className="section-heading text-center">
             <h2>experience</h2>
           </div>
@@ -325,13 +326,43 @@ class App extends Component {
             <div className="experience-content">
               <div className="main-timeline">
                 <ul>
+                <li>
+                    <div className="single-timeline-box fix">
+                      <div className="row">
+                        <div className="col-md-5">
+                          <div className="experience-time text-right">
+                            <h2>Software Engineer (iOS & Android)</h2>
+                            <h3>March 2020 - Present</h3>
+                          </div>{/*/.experience-time*/}
+                        </div>{/*/.col*/}
+                        <div className="col-md-offset-1 col-md-5">
+                          <div className="timeline">
+                            <div className="timeline-content">
+                              <h4 className="title">
+                                <span><i className="fa fa-circle" aria-hidden="true" /></span>
+                                Bank of America
+                              </h4>
+                              <h5>Boston, MA, USA</h5>
+                              <p className="description">
+                              Design and develop iOS & Android native applications (Bank of America Private Bank, MyMerrill, MerrillEdge, Benefits OnLine).<br />
+                              Rewrite and improve existing code base, impacting 26 million active mobile users.<br />
+                              Implement new mobile analytics features, revealing insights such as 1.4 million logins, 137 million bill payments, and 33 million check deposits per quarter. <br />
+                              Participate in full app life cycle: concept, design, build, deploy, test and release to app store.<br />
+                              Work with product teams on new product ideas, designs, prototypes and estimates.
+                              </p>
+                            </div>{/*/.timeline-content*/}
+                          </div>{/*/.timeline*/}
+                        </div>{/*/.col*/}
+                      </div>
+                    </div>{/*/.single-timeline-box*/}
+                  </li>
                   <li>
                     <div className="single-timeline-box fix">
                       <div className="row">
                         <div className="col-md-5">
                           <div className="experience-time text-right">
-                            <h2>2019 - Present</h2>
-                            <h3>Software Engineer</h3>
+                            <h2>Software Engineer (Mobile)</h2>
+                            <h3>July 2019 - March 2020</h3>
                           </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
                         <div className="col-md-offset-1 col-md-5">
@@ -343,9 +374,9 @@ class App extends Component {
                               </h4>
                               <h5>Mechanicsburg, PA, USA</h5>
                               <p className="description">
-                              Support development initiatives for cross-platform apps on Agile team of 10+ developers;
-                              Implement new UI and logic features using JSX, XML, and CSS;
-                              Rewrite and improve existing code base, impacting over 530,000 active users;
+                              Support development initiatives for cross-platform apps on Agile team of 10+ developers. <br />
+                              Implement new UI and logic features using JSX, XML, and CSS.<br />
+                              Rewrite and improve existing code base, impacting over 530,000 active users.<br />
                               Research cross-platform frameworks (React Native, Flutter) and lead mobile transition; 
                               </p>
                             </div>{/*/.timeline-content*/}
@@ -357,38 +388,27 @@ class App extends Component {
                   <li>
                     <div className="single-timeline-box fix">
                       <div className="row">
-                        <div className="col-md-offset-1 col-md-5 experience-time-responsive">
-                          <div className="experience-time">
-                            <h2>
-                              <span><i className="fa fa-circle" aria-hidden="true" /></span>
-                              2018-2019
-                            </h2>
-                            <h3>Information Technology Intern</h3>
+                        <div className="col-md-5">
+                          <div className="experience-time text-right">
+                            <h2>Information Technology Intern</h2>
+                            <h3>August 2018 - April 2019</h3>
                           </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
-                        <div className="col-md-5">
+                        <div className="col-md-offset-1 col-md-5">
                           <div className="timeline">
-                            <div className="timeline-content text-right">
+                            <div className="timeline-content">
                               <h4 className="title">
+                                <span><i className="fa fa-circle" aria-hidden="true" /></span>
                                 RPA Engineering
                               </h4>
                               <h5>Wyomissing, PA, USA</h5>
                               <p className="description">
-                              Provided IT troubleshooting and support for 100+ employee organization;
-                              Collaborated with leadership to redesign corporate website, increasing traffic by 20%;
-                              Implemented an on-site data backup solution to replicate cloud computing using NAS and RAID technologies; 
+                              Provided IT troubleshooting and support for 100+ employee organization<br />
+                              Collaborated with leadership to redesign corporate website, increasing traffic by 20%.<br /> 
+                              Implemented an on-site data backup solution to replicate cloud computing using NAS and RAID technologies 
                               </p>
                             </div>{/*/.timeline-content*/}
                           </div>{/*/.timeline*/}
-                        </div>{/*/.col*/}
-                        <div className="col-md-offset-1 col-md-5 experience-time-main">
-                          <div className="experience-time">
-                            <h2>
-                              <span><i className="fa fa-circle" aria-hidden="true" /></span>
-                              2018-2019
-                            </h2>
-                            <h3>Information Technology Intern</h3>
-                          </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
                       </div>
                     </div>{/*/.single-timeline-box*/}
@@ -398,8 +418,8 @@ class App extends Component {
                       <div className="row">
                         <div className="col-md-5">
                           <div className="experience-time text-right">
-                            <h2>Summer 2018</h2>
-                            <h3>Software Engineering Intern</h3>
+                            <h2>Software Engineering Intern</h2>
+                            <h3>June 2018 - August 2018</h3>
                           </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
                         <div className="col-md-offset-1 col-md-5">
@@ -411,53 +431,13 @@ class App extends Component {
                               </h4>
                               <h5>Mechaincsburg, PA, USA</h5>
                               <p className="description">
-                              Developed an exception reporting system using .NET, C#, and SQL, increasing exception viewing and handling by 90%;
-                              Facilitated client meetings and communicated with an Agile team of 10+ developers;
-                              Created a system database using SQL to track and analyze exception patterns and statistics;
-                              Presented solution to client stakeholders and 50+ executive employee audience;
+                              Developed an exception reporting system using .NET, C#, and SQL, increasing exception viewing and handling by 90%.<br />
+                              Facilitated client meetings and communicated with an Agile team of 10+ developers.<br />
+                              Created a system database using SQL to track and analyze exception patterns and statistics.<br />
+                              Presented solution to client stakeholders and 50+ executive employee audience.<br />
                               </p>
                             </div>{/*/.timeline-content*/}
                           </div>{/*/.timeline*/}
-                        </div>{/*/.col*/}
-                      </div>
-                    </div>{/*/.single-timeline-box*/}
-                  </li>
-                  <li>
-                    <div className="single-timeline-box fix">
-                      <div className="row">
-                        <div className="col-md-offset-1 col-md-5 experience-time-responsive">
-                          <div className="experience-time">
-                            <h2>
-                              <span><i className="fa fa-circle" aria-hidden="true" /></span>
-                              2017-2018
-                            </h2>
-                            <h3>Research Assistant</h3>
-                          </div>{/*/.experience-time*/}
-                        </div>{/*/.col*/}
-                        <div className="col-md-5">
-                          <div className="timeline">
-                            <div className="timeline-content text-right">
-                              <h4 className="title">
-                                Penn State University
-                              </h4>
-                              <h5>Reading, PA, USA</h5>
-                              <p className="description">
-                              Provided professional assistance in SQL and NoSQL courses with 30+ students;
-                              Researched NoSQL software and applications to develop a new NoSQL university course;
-                              Created lab assignments and quizzes to facilitate learning in MySQL and PostgreSQL;
-                              Designed course textbook websites with interactive videos and quizzes using Wordpress and HTML;
-                              </p>
-                            </div>{/*/.timeline-content*/}
-                          </div>{/*/.timeline*/}
-                        </div>{/*/.col*/}
-                        <div className="col-md-offset-1 col-md-5 experience-time-main">
-                          <div className="experience-time">
-                            <h2>
-                              <span><i className="fa fa-circle" aria-hidden="true" /></span>
-                              2017-2018
-                            </h2>
-                            <h3>Research Assistant</h3>
-                          </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
                       </div>
                     </div>{/*/.single-timeline-box*/}
@@ -467,8 +447,8 @@ class App extends Component {
                       <div className="row">
                         <div className="col-md-5">
                           <div className="experience-time text-right">
-                            <h2>2017-2018</h2>
-                            <h3>Data Validation Specialist</h3>
+                            <h2>Research Assistant</h2>
+                            <h3>August 2017 - May 2018</h3>
                           </div>{/*/.experience-time*/}
                         </div>{/*/.col*/}
                         <div className="col-md-offset-1 col-md-5">
@@ -476,13 +456,14 @@ class App extends Component {
                             <div className="timeline-content">
                               <h4 className="title">
                                 <span><i className="fa fa-circle" aria-hidden="true" /></span>
-                                Weidenhammer Systems Corporation
+                                Penn State University
                               </h4>
-                              <h5>Wyomissing, PA, USA</h5>
+                              <h5>Mechaincsburg, PA, USA</h5>
                               <p className="description">
-                              Communicated project deliverables with the client through technical reports;
-                              Maintained SQL database requirements for 200+ employee organization;
-                              Transferred and verified thousands of records to new SQL database for the client;
+                              Provided professional assistance in SQL and NoSQL courses with 30+ students.<br />
+                              Researched NoSQL software and applications to develop a new NoSQL university course.<br />
+                              Created lab assignments and quizzes to facilitate learning in MySQL and PostgreSQL.<br />
+                              Designed course textbook websites with interactive videos and quizzes using Wordpress and HTML.<br />
                               </p>
                             </div>{/*/.timeline-content*/}
                           </div>{/*/.timeline*/}
@@ -492,7 +473,8 @@ class App extends Component {
                   </li>
                 </ul>
               </div>{/*.main-timeline*/}
-            </div>{/*.experience-content*/}
+              </div>
+            </div>
           </div>
         </section>{/*/.experience*/}
         {/*experience end */}

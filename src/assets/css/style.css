@@ -447,10 +447,17 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
 }
-.experience-content {padding-top: 100px;}
+.experience-content {
+    padding: 50px 0 100px;
+}
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5ebf2;
+}
 .single-timeline-box {margin-bottom: 75px;}
 
 /*experience-time*/
@@ -604,7 +611,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    
 }
 
 .portfolio-content {padding-top: 100px;}
@@ -681,7 +688,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .clients {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    border-bottom:  1px solid #e5ebf2;
 }
 .clients-area {
     display: flex;
