@@ -567,6 +567,7 @@ class App extends Component {
               className="owl-theme"
               loop="true"
               items={3}
+              nav="true"
               >
               <div className="item">
               <img src={thesis} alt="brand-image" />
