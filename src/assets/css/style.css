@@ -652,6 +652,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:100%;
     width:100%;
     background:rgba(31,44,108,.5);
+    color: #fff;
+    font-size: 14px;
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -745,6 +747,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:100%;
     width:100%;
     background:rgba(31,44,108,.5);
+    color: #fff;
+    font-size: 14px;
     display:flex;
     align-items:center;
     text-transform: uppercase;

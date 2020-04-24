@@ -488,66 +488,66 @@ class App extends Component {
                 <div className="isotope">
                   <div className="row">
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/Weather-Pets-Flutter" target="_blank" rel="noopener noreferrer">
                       <div className="item">
                         <img src={wp} alt={"portfolio image"} />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/Weather-Pets-Flutter" target="_blank" rel="noopener noreferrer">
                             Weather Pets
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/To-Do-App-Flutter" target="_blank" rel="noopener noreferrer">
                       <div className="item">
                         <img src={td} alt="portfolio image" />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/To-Do-App-Flutter" target="_blank" rel="noopener noreferrer">
                             To-Do App
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/Google-Office-Locations-Flutter" target="_blank" rel="noopener noreferrer">
                       <div className="item">
                         <img src={gm} alt="portfolio image" />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/Google-Office-Locations-Flutter" target="_blank" rel="noopener noreferrer">
                             Google Maps
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                   </div>{/* /.row */}
                   <div className="row">
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/H4X0R-News-iOS" target="_blank" rel="noopener noreferrer">
                     <div className="item">
                         <img src={hn} alt={"portfolio image"} />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/H4X0R-News-iOS" target="_blank" rel="noopener noreferrer">
                             H4X0R News
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/BMI-Calculator-iOS" target="_blank" rel="noopener noreferrer">
                     <div className="item">
                         <img src={bmi} alt={"portfolio image"} />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/BMI-Calculator-iOS" target="_blank" rel="noopener noreferrer">
                             BMI Calculator
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                     <div className="col-sm-4">
+                    <a href="https://github.com/bridgetbaksa/Bitcoin-Converter-Flutter" target="_blank" rel="noopener noreferrer">
                     <div className="item">
                         <img src={bc} alt={"portfolio image"} />
                         <div className="isotope-overlay">
-                          <a href="https://github.com/bridgetbaksa/Bitcoin-Converter-Flutter" target="_blank" rel="noopener noreferrer">
                             Bitcoin Converter
-                          </a>
                         </div>{/* /.isotope-overlay */}
                       </div>{/* /.item */}
+                      </a>
                     </div>{/* /.col */}
                   </div>{/* /.row */}
                 </div>{/*/.isotope*/}
@@ -569,78 +569,78 @@ class App extends Component {
               items={3}
               nav="true"
               >
+              <a href="https://honors.libraries.psu.edu/catalog/5811bmb5858" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={thesis} alt="brand-image" />
-              <div className="overlay">
-                <a href="https://honors.libraries.psu.edu/catalog/5811bmb5858" target="_blank" rel="noopener noreferrer">
+                <div className="overlay">
                   Research Thesis
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://youtu.be/c7UAIA-VI9o" target="_blank" rel="noopener noreferrer">
               <div className="item">
-              <img src={speech} alt="brand-image" />
-              <div className="overlay">
-                <a href="https://youtu.be/c7UAIA-VI9o" target="_blank" rel="noopener noreferrer">
-                  Valedictorian Speech
-                </a>
-                </div>
+                <img src={speech} alt="brand-image" />
+                  <div className="overlay">
+                    Valedictorian Speech
+                  </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://news.psu.edu/story/571021/2019/04/24/academics/schreyer-scholars-honored-research-penn-state-berks?utm_source=newswire&utm_medium=email&utm_term=571138_HTML&utm_content=04-25-2019-10-04&utm_campaign=berks%20newswire" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={shc} alt="brand-image" />
               <div className="overlay">
-                <a href="https://news.psu.edu/story/571021/2019/04/24/academics/schreyer-scholars-honored-research-penn-state-berks?utm_source=newswire&utm_medium=email&utm_term=571138_HTML&utm_content=04-25-2019-10-04&utm_campaign=berks%20newswire" target="_blank" rel="noopener noreferrer">
                   Schreyer Scholar
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://news.psu.edu/story/571041/2019/04/24/academics/berks-opened-door-world-opportunities-ist-student?fbclid=IwAR09m5v22kKBHhPUIOHfxu6m35nshbW6eMBFtA59xdgKq1aLxmtxDcxQd1c" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={bks} alt="brand-image" />
               <div className="overlay">
-                <a href="https://news.psu.edu/story/571041/2019/04/24/academics/berks-opened-door-world-opportunities-ist-student?fbclid=IwAR09m5v22kKBHhPUIOHfxu6m35nshbW6eMBFtA59xdgKq1aLxmtxDcxQd1c" target="_blank" rel="noopener noreferrer">
                   PSU News
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://berks.psu.edu/story/12721/2019/08/02/scholastic-awards-ceremony-honors-academic-excellence" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={sac} alt="brand-image" />
               <div className="overlay">
-                <a href="https://berks.psu.edu/story/12721/2019/08/02/scholastic-awards-ceremony-honors-academic-excellence" target="_blank" rel="noopener noreferrer">
                   Scholastic Awards
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://news.psu.edu/story/517039/2018/04/18/academics/two-penn-state-berks-students-receive-2018-erickson-discovery" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={edg} alt="brand-image" />
               <div className="overlay">
-                <a href="https://news.psu.edu/story/517039/2018/04/18/academics/two-penn-state-berks-students-receive-2018-erickson-discovery" target="_blank" rel="noopener noreferrer">
                   Erickson Grant
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://hazleton.psu.edu/story/3493/2017/05/05/commencement-2017-held-penn-state-hazleton" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={sa} alt="brand-image" />
               <div className="overlay">
-                <a href="https://hazleton.psu.edu/story/3493/2017/05/05/commencement-2017-held-penn-state-hazleton" target="_blank" rel="noopener noreferrer">
                   Scholars Award
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://hazleton.psu.edu/photo/3572/2017/05/09/2017-scholars-lion-award" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={ls} alt="brand-image" />
               <div className="overlay">
-                <a href="https://hazleton.psu.edu/photo/3572/2017/05/09/2017-scholars-lion-award" target="_blank" rel="noopener noreferrer">
                   Scholar's Lion
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
+              <a href="https://berks.psu.edu/story/7616/2018/04/11/penn-state-berks-scholastic-awards-ceremony-recognizes-academic-excellence" target="_blank" rel="noopener noreferrer">
               <div className="item">
               <img src={ka} alt="brand-image" />
               <div className="overlay">
-                <a href="https://berks.psu.edu/story/7616/2018/04/11/penn-state-berks-scholastic-awards-ceremony-recognizes-academic-excellence" target="_blank" rel="noopener noreferrer">
                   Kostos Award
-                </a>
                 </div>
               </div>{/*/.item*/}
+              </a>
               </OwlCarousel>
           </div>{/*/.container*/}
         </div>{/*/.clients-area*/}
